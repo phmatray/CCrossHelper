@@ -1,0 +1,5 @@
+D:\Desktop\CCrossHelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.dll
+D:\Desktop\CCrossHelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.pdb
+D:\Desktop\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.csprojResolveAssemblyReference.cache
+D:\Desktop\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.dll
+D:\Desktop\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.pdb
