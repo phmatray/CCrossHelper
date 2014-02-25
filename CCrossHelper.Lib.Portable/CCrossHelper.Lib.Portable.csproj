@@ -49,6 +49,7 @@
     <Compile Include="Helpers\SerializerHelper.cs" />
     <Compile Include="Helpers\ValidationHelper.cs" />
     <Compile Include="Helpers\WebRequestHelper.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tools\Keyword.cs" />
     <Compile Include="Tools\StaticRandom.cs" />

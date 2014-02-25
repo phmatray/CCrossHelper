@@ -5,3 +5,10 @@ D:\Desktop\CCrossHelper\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Portab
 D:\Desktop\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.csprojResolveAssemblyReference.cache
 D:\Desktop\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.dll
 D:\Desktop\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.pdb
+D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Phone.dll
+D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Phone.pdb
+D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Portable.dll
+D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Portable.pdb
+D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.csprojResolveAssemblyReference.cache
+D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.dll
+D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.pdb
