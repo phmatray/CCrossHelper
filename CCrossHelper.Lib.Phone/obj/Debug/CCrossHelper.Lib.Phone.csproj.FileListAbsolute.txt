@@ -12,3 +12,10 @@ D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelpe
 D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.csprojResolveAssemblyReference.cache
 D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.dll
 D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.pdb
+C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Phone.dll
+C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Phone.pdb
+C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Portable.dll
+C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Portable.pdb
+C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.csprojResolveAssemblyReference.cache
+C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.dll
+C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.pdb

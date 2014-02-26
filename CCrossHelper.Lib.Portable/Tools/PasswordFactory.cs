@@ -9,19 +9,33 @@ namespace CCrossHelper.Lib.Portable.Tools
     public class PasswordFactory
     {
         private readonly int _passwordLength;
-        private readonly Regex _pattern;
         private readonly Random _rnd;
 
+        public Regex Pattern { get; private set; }
+
+
+        /// <summary>
+        ///     Initializes a new instance of the <see cref="PasswordFactory" /> class.
+        /// </summary>
+        /// <param name="passwordLength">Length of the password.</param>
+        /// <exception cref="System.ArgumentOutOfRangeException">passwordLength;cannot be smaller than 4</exception>
         public PasswordFactory(int passwordLength = 8)
         {
             if (passwordLength < 4)
                 throw new ArgumentOutOfRangeException("passwordLength", "cannot be smaller than 4");
 
             _passwordLength = passwordLength;
-            _pattern = new Regex(@"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[\~\!\@\#\$\%\^\&\*\(\)\.\<\>\?\{\}\[\]]).{8,}$");
             _rnd = new Random();
+
+            Pattern = new Regex(@"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])" +
+                                @"(?=.*[\~\!\@\#\$\%\^\&\*\(\)\.\<\>\?\{\}\[\]]).{8,}$");
         }
 
+        /// <summary>
+        ///     Generates a password.
+        /// </summary>
+        /// <param name="isVerified">if set to <c>true</c> the password is verified.</param>
+        /// <returns></returns>
         public string Generate(bool isVerified = false)
         {
             string retval;
@@ -62,20 +76,33 @@ namespace CCrossHelper.Lib.Portable.Tools
             return retval;
         }
 
+        /// <summary>
+        ///     Checks the password.
+        /// </summary>
+        /// <param name="password">The password.</param>
         public bool CheckPassword(string password)
         {
-            return _pattern.IsMatch(password);
+            return Pattern.IsMatch(password);
         }
 
+        /// <summary>
+        ///     Gets the errors of the password.
+        /// </summary>
+        /// <param name="password">The password.</param>
+        /// <returns></returns>
         public List<Exception> GetErrors(string password)
         {
             var retval = new List<Exception>();
 
-            if (password.Length == 0)
+            if (string.IsNullOrWhiteSpace(password))
+            {
                 retval.Add(new ArgumentException("Your password cannot be empty."));
+                return retval;
+            }
 
             if (password.Length < 8)
-                retval.Add(new ArgumentException(string.Format("Your password must be at least {0} characters.", _passwordLength)));
+                retval.Add(new ArgumentException(
+                    string.Format("Your password must be at least {0} characters.", _passwordLength)));
 
             var patternUppers = new Regex(@"^(?=.*[A-Z]).*$");
             if (!patternUppers.IsMatch(password))
