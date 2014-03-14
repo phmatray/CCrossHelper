@@ -9,7 +9,7 @@ using System;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace CCrossHelper.Lib.Store.Mvvm
+namespace CCrossHelper.Lib.Store.Patterns.Mvvm
 {
     public class NavigationService : INavigationService
     {

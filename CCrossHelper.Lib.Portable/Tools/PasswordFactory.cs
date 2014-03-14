@@ -1,4 +1,11 @@
-﻿using System;
+﻿/* Author : 
+ * Philippe Matray
+ *
+ * Date :
+ * 2014-02-20
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;

@@ -61,3 +61,5 @@ C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Store\obj\Debug\pri.res
 C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Store\obj\Debug\qualifiers.txt
 C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Store\obj\Debug\qualifiers.txt.intermediate
 C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Store\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\Newtonsoft.Json.xml

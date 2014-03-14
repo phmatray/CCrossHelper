@@ -19,6 +19,9 @@ namespace CCrossHelper.Lib.Portable.Helpers
         /// <returns></returns>
         public static string SerializeToString(this object obj)
         {
+            if (obj == null)
+                throw new ArgumentNullException("obj");
+
             var serializer = new XmlSerializer(obj.GetType());
             using (var writer = new StringWriter())
             {

@@ -8,7 +8,7 @@
 using System;
 using Windows.UI.Xaml.Navigation;
 
-namespace CCrossHelper.Lib.Store.Mvvm
+namespace CCrossHelper.Lib.Store.Patterns.Mvvm
 {
     public interface INavigationService
     {
