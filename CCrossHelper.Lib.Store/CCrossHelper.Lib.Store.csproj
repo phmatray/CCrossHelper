@@ -122,6 +122,7 @@
     <Compile Include="Converters\BooleanToVisibilityConverter.cs" />
     <Compile Include="Converters\BooleanToVisibilityNegateConverter.cs" />
     <Compile Include="Converters\BooleanNegateConverter.cs" />
+    <Compile Include="Converters\StringFormatConverter.cs" />
     <Compile Include="Converters\StringToLowerConverter.cs" />
     <Compile Include="Converters\StringToUpperConverter.cs" />
     <Compile Include="Helpers\Credentials.cs" />
