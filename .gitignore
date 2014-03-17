@@ -5,6 +5,9 @@
 *.suo
 *.user
 *.sln.docstates
+*.v12.suo
+XamlSaveStateFile.xml
+[A-Za-z\.]+\.(exe|pdb)
 
 # Build results
 [Dd]ebug/
