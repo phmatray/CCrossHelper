@@ -10,7 +10,7 @@ using Windows.Storage;
 
 namespace CCrossHelper.Lib.Store.Helpers
 {
-    public class Credentials
+    public class CredentialsHelper
     {
         private static ApplicationDataContainer _settingsRoaming;
 
@@ -62,28 +62,28 @@ namespace CCrossHelper.Lib.Store.Helpers
 
         #region credentials
 
-        public static async Task<Credentials> LoadCredentials()
+        public static async Task<CredentialsHelper> LoadCredentials()
         {
             string login = LoadLogin();
             string password = LoadPassword();
 
-            return new Credentials(login, password);
+            return new CredentialsHelper(login, password);
         }
 
-        public static void SaveCredentials(Credentials credentials)
+        public static void SaveCredentials(CredentialsHelper credentialsHelper)
         {
-            SaveLogin(credentials.Login);
-            SavePassword(credentials.Password);
+            SaveLogin(credentialsHelper.Login);
+            SavePassword(credentialsHelper.Password);
         }
 
         #endregion
 
-        public Credentials()
+        public CredentialsHelper()
         {
 
         }
 
-        public Credentials(string login = "", string password = "")
+        public CredentialsHelper(string login = "", string password = "")
         {
             Login = login;
             Password = password;

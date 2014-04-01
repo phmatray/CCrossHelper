@@ -125,7 +125,10 @@
     <Compile Include="Converters\StringFormatConverter.cs" />
     <Compile Include="Converters\StringToLowerConverter.cs" />
     <Compile Include="Converters\StringToUpperConverter.cs" />
-    <Compile Include="Helpers\Credentials.cs" />
+    <Compile Include="Helpers\IdentificationHelper.cs" />
+    <Compile Include="Helpers\CryptographyHelper.cs" />
+    <Compile Include="Helpers\ConnectionHelper.cs" />
+    <Compile Include="Helpers\CredentialsHelper.cs" />
     <Compile Include="Helpers\ObjectStorageHelper.cs" />
     <Compile Include="Helpers\OrientationHelper.cs" />
     <Compile Include="Helpers\WindowHelper.cs" />

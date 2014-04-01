@@ -44,6 +44,7 @@
     <Compile Include="Extensions\NumberExtension.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Extensions\ObjectExtension.cs" />
     <Compile Include="Helpers\ExceptionHelper.cs" />
     <Compile Include="Extensions\EnumExtension.cs" />
     <Compile Include="Helpers\SerializerHelper.cs" />
