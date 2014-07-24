@@ -6,12 +6,22 @@
  */
 
 using System.Linq;
+using System.Text;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
     public static class ArrayExtension
     {
         #region Public Methods
+
+        public static string ToString<T>(this T[] array)
+        {
+            var sb = new StringBuilder(string.Empty);
+            foreach (var obj in array)
+                sb.AppendLine(obj.ToString());
+
+            return sb.ToString();
+        }
 
         public static T[] Trim<T>(this T[] array)
         {
