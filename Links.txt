@@ -1,0 +1,3 @@
+Create Packages
+New-NuGetPackage PowerShell Script
+https://newnugetpackage.codeplex.com/wikipage?title=NuGet%20Package%20To%20Create%20A%20NuGet%20Package%20From%20Your%20Project%20After%20Every%20Build

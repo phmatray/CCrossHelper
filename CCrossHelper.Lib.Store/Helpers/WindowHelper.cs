@@ -44,7 +44,7 @@ namespace CCrossHelper.Lib.Store.Helpers
 
         public double Dpi
         {
-            get { return DisplayProperties.LogicalDpi; }
+            get { return DisplayInformation.GetForCurrentView().LogicalDpi; }
         }
 
         public string ScreenTypeSlateName

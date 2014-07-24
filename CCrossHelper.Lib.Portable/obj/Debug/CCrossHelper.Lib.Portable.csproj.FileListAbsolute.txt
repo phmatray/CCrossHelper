@@ -13,3 +13,8 @@ C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Portable\bin\Debug\CCro
 C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.csprojResolveAssemblyReference.cache
 C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.dll
 C:\Users\jp\Source\Repos\ccross-helpers\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.pdb
+C:\Users\Philippe\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.dll
+C:\Users\Philippe\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.pdb
+C:\Users\Philippe\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.csprojResolveAssemblyReference.cache
+C:\Users\Philippe\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.dll
+C:\Users\Philippe\Documents\Workspace\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.pdb

@@ -62,7 +62,7 @@ namespace CCrossHelper.Lib.Store.Helpers
 
         #region credentials
 
-        public static async Task<CredentialsHelper> LoadCredentials()
+        public static CredentialsHelper LoadCredentials()
         {
             string login = LoadLogin();
             string password = LoadPassword();
