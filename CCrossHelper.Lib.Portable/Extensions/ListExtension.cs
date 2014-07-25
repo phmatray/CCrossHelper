@@ -1,28 +1,30 @@
-﻿using System;
+﻿/* Author : 
+ * Philippe Matray
+ * 
+ * Date : 
+ * 2014-07-26
+ */
+
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
     public static class ListExtension
     {
         /// <summary>
-        ///     Shuffles the specified source.
+        ///     Convert IEnumerable to ObservableCollection
         /// </summary>
-        /// <param name="source">The source.</param>
-        public static void Shuffle<T>(this IList<T> source)
+        /// <typeparam name="T"></typeparam>
+        /// <param name="source"></param>
+        public static ObservableCollection<T> ToObservableCollection<T>(this IEnumerable<T> source)
         {
-            // http://stackoverflow.com/questions/273313/
+            var retval = new ObservableCollection<T>();
+            foreach (var item in source)
+                retval.Add(item);
 
-            var rnd = new Random();
-            int n = source.Count;
-            while (n > 1)
-            {
-                n--;
-                int k = rnd.Next(n + 1);
-                T value = source[k];
-                source[k] = source[n];
-                source[n] = value;
-            }
+            return retval;
         }
     }
 }

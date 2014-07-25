@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>CCrossHelper.Lib.Portable</id>
-    <version>1.0.2</version>
+    <id>CCrossHelper</id>
+    <version>1.0.4</version>
     <title>CCrossHelper</title>
-    <authors>Philippe</authors>
+    <authors>Philippe Matray</authors>
     <owners></owners>
     <description>
       Simplify your developments with this collection of helpers and extensions methods.

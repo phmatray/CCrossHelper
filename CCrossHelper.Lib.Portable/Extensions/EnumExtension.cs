@@ -22,11 +22,13 @@ namespace CCrossHelper.Lib.Portable.Extensions
         public static T GetAttribute<T>(this Enum value)
             where T : Attribute
         {
-            return value
+            var retval = value
                 .GetType()
                 .GetTypeInfo()
                 .GetDeclaredField(value.ToString())
                 .GetCustomAttribute<T>();
+
+            return retval;
         }
 
         /// <summary>
@@ -40,7 +42,9 @@ namespace CCrossHelper.Lib.Portable.Extensions
                 throw new ArgumentException("T must be an enumerated type");
 
             Array values = Enum.GetValues(typeof(T));
-            return (T)values.GetValue(StaticRandom.Instance.Next(values.Length));
+            var retval = (T)values.GetValue(StaticRandom.Instance.Next(values.Length));
+
+            return retval;
         }
     }
 }

@@ -40,6 +40,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Extensions\ArrayExtension.cs" />
+    <Compile Include="Extensions\ConditionExtension.cs" />
     <Compile Include="Extensions\EnumerableExtension.cs" />
     <Compile Include="Extensions\ListExtension.cs" />
     <Compile Include="Extensions\NumberExtension.cs">
