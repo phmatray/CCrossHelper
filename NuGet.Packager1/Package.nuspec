@@ -2,10 +2,10 @@
 <package >
   <metadata>
     <id>CCrossHelper</id>
-    <version>1.0.4</version>
+    <version>1.0.6</version>
     <title>CCrossHelper</title>
-    <authors>Philippe Matray</authors>
-    <owners></owners>
+    <authors>Philippe Matray (CCross)</authors>
+    <owners>Philippe Matray (CCross)</owners>
     <description>
       Simplify your developments with this collection of helpers and extensions methods.
     </description>
@@ -19,14 +19,14 @@
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <copyright>Copyright CCross 2014</copyright>
+    <copyright>Copyright 2014 Philippe Matray (CCross)</copyright>
     <dependencies>
-        <group targetFramework="net40">
+        <!--<group targetFramework="net40">
           <dependency id="log4net" version="1.2.10" />
-        </group>
+        </group>-->
     </dependencies>
     <references></references>
-    <tags></tags>
+    <tags>ccross ccrosshelper helper portable pcl</tags>
   </metadata>
   <files>
     <file src="lib\" target="lib" />
