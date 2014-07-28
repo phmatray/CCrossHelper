@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CCrossHelper.Lib.Web")]
+[assembly: AssemblyTitle("CCrossHelper.Lib")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CCrossHelper.Lib.Web")]
+[assembly: AssemblyProduct("CCrossHelper.Lib")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2ecb14d7-a14f-46d2-9065-d0db3436a5b3")]
+[assembly: Guid("50118b2b-9644-481c-aa81-bc144fa4aba7")]
 
 // Version information for an assembly consists of the following four values:
 //
