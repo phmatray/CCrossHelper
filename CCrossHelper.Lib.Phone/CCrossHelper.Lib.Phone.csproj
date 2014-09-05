@@ -101,7 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CCrossHelper.Lib.Portable\CCrossHelper.Lib.Portable.csproj">
-      <Project>{03011AE4-CF52-4E4D-8395-54C369B3488D}</Project>
+      <Project>{03011ae4-cf52-4e4d-8395-54c369b3488d}</Project>
       <Name>CCrossHelper.Lib.Portable</Name>
     </ProjectReference>
   </ItemGroup>

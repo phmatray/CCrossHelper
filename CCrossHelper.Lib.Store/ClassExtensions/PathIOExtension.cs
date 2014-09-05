@@ -30,6 +30,8 @@ namespace CCrossHelper.Lib.Store.ClassExtensions
         /// <param name="absolutePath">The path of the file to read.</param>
         public static async Task<string> ReadTextAsync(this Uri absolutePath)
         {
+
+
             absolutePath.ThrowIfArgumentIsNull();
             return await PathIO.ReadTextAsync(absolutePath.AbsolutePath);
         }

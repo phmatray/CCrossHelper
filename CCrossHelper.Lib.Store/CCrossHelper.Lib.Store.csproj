@@ -107,13 +107,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <ProjectReference Include="..\CCrossHelper.Lib.Portable\CCrossHelper.Lib.Portable.csproj">
-      <Project>{03011ae4-cf52-4e4d-8395-54c369b3488d}</Project>
-      <Name>CCrossHelper.Lib.Portable</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Behaviors\OrientationBehavior.cs" />
     <Compile Include="ClassExtensions\PathIOExtension.cs" />
     <Compile Include="ClassExtensions\FileIOExtension.cs" />
@@ -146,12 +139,19 @@
     </SDKReference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\netcore45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\netcore45\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CCrossHelper.Lib.Portable\CCrossHelper.Lib.Portable.csproj">
+      <Project>{03011ae4-cf52-4e4d-8395-54c369b3488d}</Project>
+      <Name>CCrossHelper.Lib.Portable</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
