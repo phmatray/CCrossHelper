@@ -9,7 +9,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Security;
 
-namespace WideTech.Core.Common.Helpers
+namespace CCrossHelper.Lib.Helpers
 {
     public static class ConsoleHelper
     {
