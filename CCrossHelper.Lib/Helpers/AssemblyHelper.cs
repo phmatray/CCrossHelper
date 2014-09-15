@@ -1,5 +1,4 @@
-﻿
-/* Author: 
+﻿/* Author: 
  * Philippe Matray
  * 
  * Date: 

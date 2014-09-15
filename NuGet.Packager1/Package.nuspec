@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CCrossHelper</id>
-    <version>1.0.11</version>
+    <version>1.0.13</version>
     <title>CCrossHelper</title>
     <authors>Philippe Matray (CCross)</authors>
     <owners>Philippe Matray (CCross)</owners>
@@ -10,6 +10,7 @@
       Simplify your developments with this collection of helpers and extensions methods.
     </description>
     <releaseNotes>
+      Add Clock in CCrossHelper.Lib.Portable.Tools. This class is provided as a replacement for DateTime.Now 
     </releaseNotes>
     <summary>
       Simplify your developments with this collection of helpers and extensions methods.
