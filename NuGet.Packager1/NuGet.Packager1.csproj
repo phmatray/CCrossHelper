@@ -69,6 +69,8 @@
     <Content Include="lib\net45\CCrossHelper.Lib.Portable.dll" />
     <Content Include="lib\win\CCrossHelper.Lib.Portable.dll" />
     <Content Include="lib\win\CCrossHelper.Lib.Store.dll" />
+    <Content Include="lib\wp\CCrossHelper.Lib.Phone.dll" />
+    <Content Include="lib\wp\CCrossHelper.Lib.Portable.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

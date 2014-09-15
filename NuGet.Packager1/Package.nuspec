@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CCrossHelper</id>
-    <version>1.0.10</version>
+    <version>1.0.11</version>
     <title>CCrossHelper</title>
     <authors>Philippe Matray (CCross)</authors>
     <owners>Philippe Matray (CCross)</owners>
@@ -15,8 +15,8 @@
       Simplify your developments with this collection of helpers and extensions methods.
     </summary>
     <language>en-US</language>
-    <!--<projectUrl>https://nuget.org/packages/NuGet.Packager1</projectUrl>-->
-    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <projectUrl>http://ccross.net</projectUrl>
+    <iconUrl>http://ccross.azurewebsites.net//Content/Images/CrossMonkeyTranspNugetPackage.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <copyright>Copyright 2014 Philippe Matray (CCross)</copyright>
