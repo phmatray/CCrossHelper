@@ -1,4 +1,4 @@
-﻿/* Author: 
+/* Author: 
  * Philippe Matray
  * 
  * Date: 
@@ -13,32 +13,61 @@ namespace CCrossHelper.Lib.Helpers
 {
     public static class ConsoleHelper
     {
+        private static ConsoleColor _backgroundColor;
+        private static ConsoleColor _foregroundColor;
+
         #region ColorConsole
 
         public static void Write(ConsoleColor color, string format, params object[] arg)
         {
+            SaveConsoleColors();
+
             Console.ForegroundColor = color;
             Console.Write(format, arg);
-            Console.ResetColor();
+
+            ResetConsoleColors();
         }
 
         public static void Write(int cursorLeft, ConsoleColor color, string format, params object[] arg)
         {
+            SaveConsoleColors();
+
             Console.CursorLeft = cursorLeft;
             Write(color, format, arg);
+
+            ResetConsoleColors();
         }
 
         public static void WriteLine(ConsoleColor color, string format, params object[] arg)
         {
+            SaveConsoleColors();
+
             Console.ForegroundColor = color;
             Console.WriteLine(format, arg);
-            Console.ResetColor();
+
+            ResetConsoleColors();
         }
 
         public static void WriteLine(int cursorLeft, ConsoleColor color, string format, params object[] arg)
         {
+            SaveConsoleColors();
+
             Console.CursorLeft = cursorLeft;
             WriteLine(color, format, arg);
+
+            ResetConsoleColors();
+        }
+
+        private static void SaveConsoleColors()
+        {
+            _backgroundColor = Console.BackgroundColor;
+            _foregroundColor = Console.ForegroundColor;
+        }
+
+        private static void ResetConsoleColors()
+        {
+            Console.BackgroundColor = _backgroundColor;
+            Console.ForegroundColor = _foregroundColor;
         }
 
         #endregion
