@@ -56,6 +56,7 @@
     <Compile Include="Patterns\Repository\IModel.cs" />
     <Compile Include="Patterns\Repository\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\SingletonBase.cs" />
     <Compile Include="Tools\Clock.cs" />
     <Compile Include="Tools\PasswordFactory.cs" />
     <Compile Include="Tools\Keyword.cs" />

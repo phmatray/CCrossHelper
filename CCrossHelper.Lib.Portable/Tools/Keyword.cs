@@ -1,7 +1,7 @@
-﻿/* Author : 
+﻿/* Author: 
  * Philippe Matray
  *
- * Date :
+ * Date:
  * 2014-01-23
  */
 

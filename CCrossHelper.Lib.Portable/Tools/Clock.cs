@@ -11,12 +11,22 @@ namespace CCrossHelper.Lib.Portable.Tools
 {
     public class Clock
     {
+        #region Fields
+
         private static Func<DateTime> _function;
+
+        #endregion
+
+        #region Ctors
 
         static Clock()
         {
             _function = () => DateTime.Now;
         }
+
+        #endregion
+
+        #region Properties
 
         public static DateTime Now
         {
@@ -28,9 +38,15 @@ namespace CCrossHelper.Lib.Portable.Tools
             set { _function = value ?? (() => DateTime.Now); }
         }
 
+        #endregion
+
+        #region Methods
+
         public static void Reset()
         {
             FunctionNow = null;
         }
+
+        #endregion
     }
 }
