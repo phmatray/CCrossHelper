@@ -22,16 +22,26 @@ namespace CCrossHelper.Lib.Portable.Extensions
         {
             T cloned;
 
-            var serializer = new DataContractSerializer(typeof(T));
+            var serializer = new DataContractSerializer(typeof (T));
 
             using (var ms = new MemoryStream())
             {
                 serializer.WriteObject(ms, obj);
                 ms.Position = 0;
-                cloned = (T)serializer.ReadObject(ms);
+                cloned = (T) serializer.ReadObject(ms);
             }
 
             return cloned;
+        }
+
+        /// <summary>
+        ///     Determines whether the specified source is null.
+        /// </summary>
+        /// <param name="source">The source.</param>
+        /// <returns></returns>
+        public static bool IsNull(this object source)
+        {
+            return source == null;
         }
     }
 }

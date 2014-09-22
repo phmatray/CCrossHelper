@@ -40,16 +40,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\FileAttributesExtension.cs" />
+    <Compile Include="Extensions\SecureStringExtension.cs" />
     <Compile Include="Helpers\AssemblyHelper.cs" />
     <Compile Include="Helpers\ConsoleHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Types\MyString.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CCrossHelper.Lib.Portable\CCrossHelper.Lib.Portable.csproj">
-      <Project>{03011ae4-cf52-4e4d-8395-54c369b3488d}</Project>
-      <Name>CCrossHelper.Lib.Portable</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

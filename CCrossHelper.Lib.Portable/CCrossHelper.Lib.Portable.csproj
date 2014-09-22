@@ -40,13 +40,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Extensions\ArrayExtension.cs" />
+    <Compile Include="Extensions\ComparableExtension.cs" />
     <Compile Include="Extensions\ConditionExtension.cs" />
+    <Compile Include="Extensions\DateTimeExtension.cs" />
     <Compile Include="Extensions\EnumerableExtension.cs" />
     <Compile Include="Extensions\ListExtension.cs" />
     <Compile Include="Extensions\NumberExtension.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Extensions\ObjectExtension.cs" />
+    <Compile Include="Extensions\StringExtension.cs" />
     <Compile Include="Helpers\ExceptionHelper.cs" />
     <Compile Include="Extensions\EnumExtension.cs" />
     <Compile Include="Helpers\SerializerHelper.cs" />

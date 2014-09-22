@@ -1,4 +1,11 @@
-﻿using System;
+﻿/* Author : 
+ * Philippe Matray
+ * 
+ * Date : 
+ * 2014-09-22
+ */
+
+using System;
 using System.Linq;
 
 namespace CCrossHelper.Lib.Portable.Extensions
