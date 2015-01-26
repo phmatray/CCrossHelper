@@ -11,7 +11,7 @@ using CCrossHelper.Lib.Portable.Tools;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
-    public static class EnumExtension
+    public static partial class EnumExtension
     {
         /// <summary>
         ///     Gets the attribute.

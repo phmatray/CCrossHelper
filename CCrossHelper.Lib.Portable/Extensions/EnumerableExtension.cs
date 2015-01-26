@@ -14,7 +14,7 @@ using System.Linq;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
-    public static class EnumerableExtension
+    public static partial class EnumerableExtension
     {
         #region distinctsBy methods
 

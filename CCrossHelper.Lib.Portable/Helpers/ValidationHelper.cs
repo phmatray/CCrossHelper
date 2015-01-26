@@ -10,7 +10,7 @@ using System.Text.RegularExpressions;
 
 namespace CCrossHelper.Lib.Portable.Helpers
 {
-    public static class ValidationHelper
+    public static partial class ValidationHelper
     {
         #region enums
 

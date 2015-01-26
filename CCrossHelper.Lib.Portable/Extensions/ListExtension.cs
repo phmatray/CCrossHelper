@@ -12,7 +12,7 @@ using System.Linq;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
-    public static class ListExtension
+    public static partial class ListExtension
     {
         /// <summary>
         ///     Convert IEnumerable to ObservableCollection

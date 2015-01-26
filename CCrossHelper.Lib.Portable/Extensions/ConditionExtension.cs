@@ -10,7 +10,7 @@ using System.Linq;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
-    public static class ConditionExtension
+    public static partial class ConditionExtension
     {
         public static bool EqualsAnyOf<T>(this T source, params T[] list)
         {

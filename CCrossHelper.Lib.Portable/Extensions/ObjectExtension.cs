@@ -10,7 +10,7 @@ using System.Runtime.Serialization;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
-    public static class ObjectExtension
+    public static partial class ObjectExtension
     {
         /// <summary>
         ///     Performs a deep clone.

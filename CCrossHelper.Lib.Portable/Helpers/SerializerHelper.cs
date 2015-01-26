@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace CCrossHelper.Lib.Portable.Helpers
 {
-    public static class SerializerHelper
+    public static partial class SerializerHelper
     {
         #region methods
 
