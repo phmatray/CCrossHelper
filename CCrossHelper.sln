@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCrossHelper.Lib.Portable", "CCrossHelper.Lib.Portable\CCrossHelper.Lib.Portable.csproj", "{03011AE4-CF52-4E4D-8395-54C369B3488D}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Development", "Development", "{CF0081B9-0E51-47B4-B31B-F0F5E4B752F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCrossHelper.Test.StoreWin", "CCrossHelper.Test.StoreWin\CCrossHelper.Test.StoreWin.csproj", "{B68F9511-628E-47E3-BD64-5755A77728FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCrossHelper.Lib.Portable.Services", "CCrossHelper.Lib.Portable.Services\CCrossHelper.Lib.Portable.Services.csproj", "{87800CC5-319F-415C-8E57-3787C40BD96C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +141,22 @@ Global
 		{B68F9511-628E-47E3-BD64-5755A77728FE}.Release|x86.ActiveCfg = Release|x86
 		{B68F9511-628E-47E3-BD64-5755A77728FE}.Release|x86.Build.0 = Release|x86
 		{B68F9511-628E-47E3-BD64-5755A77728FE}.Release|x86.Deploy.0 = Release|x86
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Debug|ARM.Build.0 = Debug|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Debug|x64.Build.0 = Debug|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Debug|x86.Build.0 = Debug|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|ARM.ActiveCfg = Release|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|ARM.Build.0 = Release|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|x64.ActiveCfg = Release|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|x64.Build.0 = Release|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|x86.ActiveCfg = Release|Any CPU
+		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,5 +168,6 @@ Global
 		{94B2BD73-0282-4B26-B576-4579A30F9A87} = {CF0081B9-0E51-47B4-B31B-F0F5E4B752F5}
 		{5D4B4F85-FF03-41C2-A3D5-919058ABA8C2} = {E17D2973-0D67-47E5-817C-2A08130BD615}
 		{B68F9511-628E-47E3-BD64-5755A77728FE} = {E17D2973-0D67-47E5-817C-2A08130BD615}
+		{87800CC5-319F-415C-8E57-3787C40BD96C} = {CF0081B9-0E51-47B4-B31B-F0F5E4B752F5}
 	EndGlobalSection
 EndGlobal

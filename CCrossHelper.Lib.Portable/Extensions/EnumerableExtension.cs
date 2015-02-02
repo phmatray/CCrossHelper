@@ -2,7 +2,7 @@
  * Philippe Matray
  *
  * Date :
- * 2014-01-23
+ * 2014-01-23, 2015-02-01
  * 
  * Link : 
  * http://stackoverflow.com/questions/5807128/an-extension-method-on-ienumerable-needed-for-shuffling
@@ -89,6 +89,64 @@ namespace CCrossHelper.Lib.Portable.Extensions
 
                 buffer[j] = buffer[i];
             }
+        }
+
+        #endregion
+
+        #region shift methods
+
+        /// <summary>
+        ///     Shifts a collection to the left.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="source">The source.</param>
+        /// <param name="iteration">Number of iterations.</param>
+        /// <returns></returns>
+        /// <exception cref="System.ArgumentNullException">source</exception>
+        /// <exception cref="System.ArgumentOutOfRangeException">iteration</exception>
+        public static List<T> ShiftLeft<T>(this IEnumerable<T> source, int iteration = 1)
+        {
+            if (source == null)
+                throw new ArgumentNullException("source");
+            if (iteration < 0)
+                throw new ArgumentOutOfRangeException("iteration");
+
+            var result = new List<T>(source);
+            for (var i = 0; i < iteration; i++)
+            {
+                var first = result.First();
+                result.Remove(first);
+                result.Add(first);
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        ///     Shifts a collection to the right.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="source">The source.</param>
+        /// <param name="iteration">Number of iterations.</param>
+        /// <returns></returns>
+        /// <exception cref="System.ArgumentNullException">source</exception>
+        /// <exception cref="System.ArgumentOutOfRangeException">iteration</exception>
+        public static List<T> ShiftRight<T>(this IEnumerable<T> source, int iteration = 1)
+        {
+            if (source == null)
+                throw new ArgumentNullException("source");
+            if (iteration < 0)
+                throw new ArgumentOutOfRangeException("iteration");
+
+            var result = new List<T>(source);
+            for (var i = 0; i < iteration; i++)
+            {
+                var last = result.Last();
+                result.Remove(last);
+                result.Insert(0, last);
+            }
+
+            return result;
         }
 
         #endregion
