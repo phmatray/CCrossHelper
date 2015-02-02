@@ -9,7 +9,7 @@ using System;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
-    public static class DateTimeExtension
+    public static partial class DateTimeExtension
     {
         /// <summary>
         ///     Determines whether the specified date is monday.

@@ -9,7 +9,7 @@ using System;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
-    public static class ComparableExtension
+    public static partial class ComparableExtension
     {
         /// <summary>
         ///     Check whether a value is between two others (inclusive).

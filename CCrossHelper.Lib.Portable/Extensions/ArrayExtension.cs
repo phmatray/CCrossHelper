@@ -10,7 +10,7 @@ using System.Text;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
-    public static class ArrayExtension
+    public static partial class ArrayExtension
     {
         #region Public Methods
 

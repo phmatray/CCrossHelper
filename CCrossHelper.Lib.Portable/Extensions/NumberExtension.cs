@@ -9,7 +9,7 @@ using System;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
-    public static class NumberExtension
+    public static partial class NumberExtension
     {
         /// <summary>
         ///     Determines whether the specified number is odd.

@@ -14,7 +14,7 @@ using System.Linq;
 
 namespace CCrossHelper.Lib.Portable.Helpers
 {
-    public static class ExceptionHelper
+    public static partial class ExceptionHelper
     {
         #region methods
 

@@ -12,7 +12,7 @@ using System.Text;
 
 namespace CCrossHelper.Lib.Portable.Extensions
 {
-    public static class StringExtension
+    public static partial class StringExtension
     {
         /// <summary>
         ///     Determines whether the specified value is numeric.
