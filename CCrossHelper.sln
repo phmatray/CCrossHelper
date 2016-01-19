@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22310.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCrossHelper.Lib.Portable", "CCrossHelper.Lib.Portable\CCrossHelper.Lib.Portable.csproj", "{03011AE4-CF52-4E4D-8395-54C369B3488D}"
 EndProject
@@ -21,8 +21,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".documentation", ".document
 		Links.txt = Links.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Packager1", "NuGet.Packager1\NuGet.Packager1.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCrossHelper.Lib", "CCrossHelper.Lib\CCrossHelper.Lib.csproj", "{94B2BD73-0282-4B26-B576-4579A30F9A87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCrossHelper.Test.WpfApp", "CCrossHelper.Test.WpfApp\CCrossHelper.Test.WpfApp.csproj", "{5D4B4F85-FF03-41C2-A3D5-919058ABA8C2}"
@@ -34,6 +32,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCrossHelper.Test.StoreWin", "CCrossHelper.Test.StoreWin\CCrossHelper.Test.StoreWin.csproj", "{B68F9511-628E-47E3-BD64-5755A77728FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCrossHelper.Lib.Portable.Services", "CCrossHelper.Lib.Portable.Services\CCrossHelper.Lib.Portable.Services.csproj", "{87800CC5-319F-415C-8E57-3787C40BD96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.PackagerVS2015", "NuGet.PackagerVS2015\NuGet.PackagerVS2015.csproj", "{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,16 +87,6 @@ Global
 		{FE455114-BBBB-4ADA-B98C-B5D26AEA3EC2}.Release|x64.ActiveCfg = Release|Any CPU
 		{FE455114-BBBB-4ADA-B98C-B5D26AEA3EC2}.Release|x86.ActiveCfg = Release|x86
 		{FE455114-BBBB-4ADA-B98C-B5D26AEA3EC2}.Release|x86.Build.0 = Release|x86
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|ARM.ActiveCfg = Release|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|x64.ActiveCfg = Release|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|x86.ActiveCfg = Release|Any CPU
 		{94B2BD73-0282-4B26-B576-4579A30F9A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{94B2BD73-0282-4B26-B576-4579A30F9A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B2BD73-0282-4B26-B576-4579A30F9A87}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -157,6 +147,22 @@ Global
 		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|x64.Build.0 = Release|Any CPU
 		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|x86.ActiveCfg = Release|Any CPU
 		{87800CC5-319F-415C-8E57-3787C40BD96C}.Release|x86.Build.0 = Release|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Debug|ARM.Build.0 = Debug|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Debug|x64.Build.0 = Debug|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Debug|x86.Build.0 = Debug|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Release|ARM.ActiveCfg = Release|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Release|ARM.Build.0 = Release|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Release|x64.ActiveCfg = Release|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Release|x64.Build.0 = Release|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Release|x86.ActiveCfg = Release|Any CPU
+		{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

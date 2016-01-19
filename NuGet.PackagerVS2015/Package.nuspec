@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CCrossHelper</id>
-    <version>1.0.13</version>
+    <version>1.0.14</version>
     <title>CCrossHelper</title>
     <authors>Philippe Matray (CCross)</authors>
     <owners>Philippe Matray (CCross)</owners>
@@ -10,13 +10,14 @@
       Simplify your developments with this collection of helpers and extensions methods.
     </description>
     <releaseNotes>
-      Add Clock in CCrossHelper.Lib.Portable.Tools. This class is provided as a replacement for DateTime.Now 
+      CCross Helper is now on GitHub. Feel free to propose pull requests.
+      Add ShortGuid type and helper.
     </releaseNotes>
     <summary>
       Simplify your developments with this collection of helpers and extensions methods.
     </summary>
     <language>en-US</language>
-    <projectUrl>http://ccross.net</projectUrl>
+    <projectUrl>https://github.com/phmatray/CCrossHelper</projectUrl>
     <iconUrl>http://ccross.azurewebsites.net//Content/Images/CrossMonkeyTranspNugetPackage.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>

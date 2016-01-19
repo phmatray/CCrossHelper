@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0451BAEF-DF2E-4B98-8644-94EE9415E389}</ProjectGuid>
+    <ProjectGuid>{3BD4015C-DC6E-426B-BCA5-EC1A256B8E93}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NuGet.Packager1</RootNamespace>
-    <AssemblyName>NuGet.Packager1</AssemblyName>
+    <RootNamespace>NuGet.PackagerVS2015</RootNamespace>
+    <AssemblyName>NuGet.PackagerVS2015</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -53,9 +53,7 @@
     <None Include="NuGetSetup.ps1" />
     <None Include="NuGet.exe" />
     <None Include="NuGet.config" />
-    <None Include="Package.nuspec">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="Package.nuspec" />
     <None Include="tools\init.ps1" />
     <None Include="tools\install.ps1" />
     <None Include="tools\uninstall.ps1" />

@@ -23,3 +23,7 @@ C:\Users\Philippe\Documents\PersonalWorkspace\ccrosshelper\CCrossHelper.Lib.Port
 C:\Users\Philippe\Documents\PersonalWorkspace\ccrosshelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.pdb
 C:\Users\Philippe\Documents\PersonalWorkspace\ccrosshelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.dll
 C:\Users\Philippe\Documents\PersonalWorkspace\ccrosshelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.pdb
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.dll
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.pdb
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.dll
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.pdb

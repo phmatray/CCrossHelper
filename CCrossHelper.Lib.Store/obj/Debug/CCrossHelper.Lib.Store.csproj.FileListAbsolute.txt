@@ -109,3 +109,26 @@ C:\Users\Philippe\Documents\PersonalWorkspace\ccrosshelper\CCrossHelper.Lib.Stor
 C:\Users\Philippe\Documents\PersonalWorkspace\ccrosshelper\CCrossHelper.Lib.Store\obj\Debug\qualifiers.txt
 C:\Users\Philippe\Documents\PersonalWorkspace\ccrosshelper\CCrossHelper.Lib.Store\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Philippe\Documents\PersonalWorkspace\ccrosshelper\CCrossHelper.Lib.Store\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\CCrossHelper.Lib.Store.dll
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\CCrossHelper.Lib.Store.pdb
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\CCrossHelper.Lib.Store.pri
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\CCrossHelper.Lib.Portable.dll
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\CCrossHelper.Lib.Portable.pdb
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\CCrossHelper.Lib.Store.csprojResolveAssemblyReference.cache
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\CCrossHelper.Lib.Store.dll
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\CCrossHelper.Lib.Store.pdb
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\priconfig.xml
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\priconfig.xml.intermediate
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\layout.resfiles
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\layout.resfiles.intermediate
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\resources.resfiles
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\resources.resfiles.intermediate
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\pri.resfiles
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\pri.resfiles.intermediate
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\qualifiers.txt
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\MultipleQualifiersPerDimensionFound.txt
