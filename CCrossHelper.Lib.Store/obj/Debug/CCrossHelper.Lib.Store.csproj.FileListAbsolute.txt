@@ -132,3 +132,26 @@ C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\ob
 C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\qualifiers.txt
 C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\CCrossHelper.Lib.Store.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\CCrossHelper.Lib.Store.pdb
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\CCrossHelper.Lib.Store.pri
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\Microsoft.Xaml.Interactions.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\CCrossHelper.Lib.Portable.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\Newtonsoft.Json.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\CCrossHelper.Lib.Portable.pdb
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\bin\Debug\Newtonsoft.Json.xml
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\CCrossHelper.Lib.Store.csprojResolveAssemblyReference.cache
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\CCrossHelper.Lib.Store.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\CCrossHelper.Lib.Store.pdb
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\priconfig.xml
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\priconfig.xml.intermediate
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\layout.resfiles
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\layout.resfiles.intermediate
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\resources.resfiles
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\resources.resfiles.intermediate
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\pri.resfiles
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\pri.resfiles.intermediate
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\qualifiers.txt
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\qualifiers.txt.intermediate
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Store\obj\Debug\MultipleQualifiersPerDimensionFound.txt

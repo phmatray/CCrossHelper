@@ -67,6 +67,7 @@
     <Compile Include="Tools\Keyword.cs" />
     <Compile Include="Tools\StaticRandom.cs" />
     <Compile Include="Tools\TimeSpanPicker.cs" />
+    <Compile Include="Types\GeoAngle.cs" />
     <Compile Include="Types\ShortGuid.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

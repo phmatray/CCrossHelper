@@ -27,3 +27,8 @@ C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Portable
 C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.pdb
 C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.dll
 C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.pdb
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Portable\bin\Debug\CCrossHelper.Lib.Portable.pdb
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.csprojResolveAssemblyReference.cache
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Portable\obj\Debug\CCrossHelper.Lib.Portable.pdb

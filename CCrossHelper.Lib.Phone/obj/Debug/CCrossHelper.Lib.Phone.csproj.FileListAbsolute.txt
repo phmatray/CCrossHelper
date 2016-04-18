@@ -37,3 +37,10 @@ C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Phone\Bi
 C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.csprojResolveAssemblyReference.cache
 C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.dll
 C:\Users\Philippe Matray\Documents\GitHub\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.pdb
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Phone.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Phone.pdb
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Portable.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Phone\Bin\Debug\CCrossHelper.Lib.Portable.pdb
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.csprojResolveAssemblyReference.cache
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.dll
+C:\Repo\CCrossHelper\CCrossHelper.Lib.Phone\obj\Debug\CCrossHelper.Lib.Phone.pdb
